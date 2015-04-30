@@ -1,0 +1,23 @@
+{
+    "name": "javiervivanco/config-build",
+    "description": "Builder Configurations",
+    "require": {
+        "php":            ">=5.3.3",
+        "symfony/console": "~2.3@dev",
+        "twig/twig":       "1.*@dev",
+        "symfony/finder":  "~2.3@dev",
+        "symfony/yaml":    "2.6.*@dev"
+    },
+
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Javier Vivanco",
+            "email": "javier123mendoza@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"JavierVivanco\\BuilderConfig\\": "src/"}
+    },
+    "minimum-stability": "dev"
+}
