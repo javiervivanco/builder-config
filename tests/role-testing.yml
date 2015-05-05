@@ -1,7 +1,7 @@
 role:
     "config/test.config":
         SIMPLE_VAR: hello_word
-        COMPLEX_LIST:
+        LIST:
             - one
             - two
             - three

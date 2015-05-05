@@ -7,5 +7,5 @@ use JavierVivanco\BuilderConfig;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
-$application->add(new Command\BuilderCommand());
+$application->add(new BuilderConfig\Command\BuilderCommand());
 $application->run();
