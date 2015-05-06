@@ -8,4 +8,5 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 $application->add(new BuilderConfig\Command\BuilderCommand());
+$application->setDefaultCommand('build');
 $application->run();
