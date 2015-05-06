@@ -16,6 +16,7 @@
             "email": "javier123mendoza@gmail.com"
         }
     ],
+    "bin": ["bin/builder-config.php"],
     "autoload": {
         "psr-4": {"JavierVivanco\\BuilderConfig\\": "src/"}
     },
